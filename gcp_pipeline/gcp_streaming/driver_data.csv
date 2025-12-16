@@ -1,0 +1,5 @@
+vehicle_id,driver_id,event_type,eye_closure_ms,confidence
+KA03123,D123,Sleeping,1850,0.95
+KA03124,D1234,Eye Winking,900,0.8
+KA03125,D12345,Head Nodding,800,0.89
+KA03126,F123,Yawning,900,0.91

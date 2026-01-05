@@ -1,0 +1,38 @@
+Link - https://docs.cloud.google.com/architecture/migration-to-gcp-assessing-and-discovering-your-workloads
+The assessment phase is crucial for the success of your migration. You need to gain deep knowledge about the workloads you want to migrate, their requirements, their dependencies, and about your current environment. You need to understand your starting point to successfully plan and execute a Google Cloud migration.
+
+The assessment phase consists of the following tasks:
+
+Build a comprehensive inventory of your workloads.
+Catalog your workloads according to their properties and dependencies.
+Train and educate your teams on Google Cloud.
+Build experiments and proofs of concept on Google Cloud.
+Calculate the total cost of ownership (TCO) of the target environment.
+Choose the migration strategy for your workloads.
+Choose your migration tools.
+Define the migration plan and timeline.
+Validate your migration plan.
+
+Build an inventory of your workloads
+To scope your migration, you must first understand how many items, such as workloads and hardware appliances, exist in your current environment, along with their dependencies. Building the inventory is a non-trivial task that requires a significant effort, 
+especially when you don't have any automatic cataloging system in place. To have a comprehensive inventory, you need to use the expertise of the teams that are responsible for the design, deployment, and operation of each workload in your current environment, 
+as well as the environment itself.
+
+The inventory shouldn't be limited to workloads only, but should at least contain the following:
+
+Dependencies of each workload, such as databases, message brokers, configuration storage systems, and other components.
+Services supporting your workload infrastructure, such as source repositories, continuous integration and continuous deployment (CI/CD) 
+tools, and artifact repositories.
+Servers, either virtual or physical, and runtime environments.
+Physical appliances, such as network devices, firewalls, and other dedicated hardware.
+
+When compiling this list, you should also gather information about each item, including:
+
+Source code location and if you're able to modify this source code.
+Deployment method for the workload in a runtime environment, for example, if you use an automated deployment pipeline or a manual one.
+Network restrictions or security requirements.
+IP address requirements.
+How you're exposing the workload to clients.
+Licensing requirements for any software or hardware.
+How the workload authenticates against your identity and access management system.
+

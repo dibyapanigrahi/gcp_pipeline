@@ -1,0 +1,31 @@
+Migrate to Google Cloud: Get started
+
+Types of migrations
+This document defines the following major types of migrations:
+
+Rehost: lift and shift
+Replatform: lift and optimize
+Refactor: move and improve
+Re-architect: continue to modernize
+Rebuild: remove and replace, sometimes called rip and replace
+Repurchase
+
+The framework assesses four themes:
+
+Learn. The quality and scale of your learning programs.
+Lead. The extent to which your IT departments are supported by a mandate from leadership to migrate to Google Cloud.
+Scale. The extent to which you use cloud-optimized services, and how much operational automation you have in place.
+Secure. The capability to protect your current environment from unauthorized and inappropriate access.
+For each theme, you should be in one of the following three phases, according to the framework:
+
+Tactical. There are no coherent plans covering all the individual workloads you have in place. You're mostly interested in a quick return on investments and little disruption to your IT organization.
+Strategic. There is a plan in place to develop individual workloads with an eye to future scaling needs. You're interested in the mid-term goal to streamline operations to be more efficient than they are today.
+Transformational. Cloud operations work smoothly, and you use data that you gather from those operations to improve your IT business. You're interested in the long-term goal of making the IT department one of the engines of innovation in your organization.
+When you evaluate the four topics in terms of the three phases, you get the Cloud Maturity Scale. In each theme, you can see what happens when you move from adopting new technologies when needed, to working with them more strategically across the organization—which naturally means deeper, more comprehensive, and more consistent training for your teams.
+
+There are four phases of your migration:
+
+Assess. In this phase, you perform a thorough assessment and discovery of your existing environment in order to understand your app and environment inventory, identify app dependencies and requirements, perform total cost of ownership calculations, and establish app performance benchmarks. For more information about the assess phase, see Migrate to Google Cloud: Assess and discover your workloads, Migrate to Google Cloud: Best practices, and Migration Center: Start an asset discovery.
+Plan. In this phase, you create the basic cloud infrastructure for your workloads to live in and plan how you will move apps. This planning includes identity management, organization and project structure, networking, sorting your apps, and developing a prioritized migration strategy. For more information about planning and building your foundation, see Migrate to Google Cloud: Plan and build your foundation.
+Deploy. In this phase, you design, implement and execute a deployment process to move workloads to Google Cloud. You might also have to refine your cloud infrastructure to deal with new needs. For more information about how to deploy your workloads to Google Cloud and how to migrate data to Google Cloud, see Migrate to Google Cloud: Deploy your workloads, Migrate to Google Cloud: Migrate from manual deployments to automated, containerized deployments, and Migrate to Google Cloud: Transfer your large datasets.
+Optimize. In this phase, you begin to take full advantage of cloud-optimized technologies and capabilities to expand your business's potential to things such as performance, scalability, disaster recovery, costs, training, as well as opening the doors to machine learning and artificial intelligence integrations for your app. For more information about how to optimize your environment, see Migrate to Google Cloud: Optimize your environment. For more information about costs, see Migrate to Google Cloud: Minimize costs.

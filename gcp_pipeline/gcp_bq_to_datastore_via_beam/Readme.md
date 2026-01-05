@@ -44,3 +44,6 @@ python bigquery_to_datastore_via_beam/run.py --runner=DirectRunner --streaming \
 To run on Dataflow, you need to package it as a template. See
 a [video](https://www.youtube.com/watch?v=SnQ0Jx5nhoc&list=PL4RrzxkjhEKuZJKCjXrtzbECfnZQlp397&index=29) created by me
 with a git repo attached for more details.
+
+Reference link - 
+https://www.datamax.ai/post/streaming-data-from-postgresql-to-bigquery-with-datastream

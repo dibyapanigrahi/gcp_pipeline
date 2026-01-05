@@ -1,3 +1,10 @@
 gcp_key.json
 *.json
 .env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
